@@ -1,14 +1,17 @@
 ### Date created
-Include the date you created this project and README file.
+05/12/2019
 
 ### Project Title
-Replace the Project Title
+project 3
 
 ### Description
-Describe what your project is about and what it does
+using Git and GitHub with a simulated workflow to refactor bikeshare.py
+consisted in the filling of a template with all the Git commands used to perform the requested tasks.
 
 ### Files used
-Include the files used
+washington.csv
+new_york_city.csv
+chicago.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
