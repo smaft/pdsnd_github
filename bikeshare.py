@@ -211,14 +211,7 @@ def main():
         user_stats(df)
 
 
-        while True:
-            rowId = 0
-            raw_data = input('\nWould you like to see first 5 rows of the raw data? Enter yes or no\n').lower()
-            while raw_data == 'yes':
-                 print(df.head(rowId+5))
-                 raw_data = input('\nWould you like to see 5 more rows of the raw data? Enter yes or no\n').lower()
-            else:
-                break
+        
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
