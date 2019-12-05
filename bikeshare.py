@@ -180,11 +180,15 @@ def user_stats(df):
     print('\nNumber of customers are {}\n'.format(int(no_of_customers)))
 
     # Display counts of gender
-    if('Gender' in df):
+    try :
+      if('Gender' in df):
         male_count = df['Gender'].str.count('Male').sum()
         female_count = df['Gender'].str.count('Female').sum()
         print('\nNumber of male users are {}\n'.format(int(male_count)))
         print('\nNumber of female users are {}\n'.format(int(female_count)))
+    except KeyError:
+        print("We're sorry! There is no data of user genders for {}."
+              .format(city.title()))    
 
 
     # Display earliest, most recent, and most common year of birth
