@@ -188,7 +188,7 @@ def user_stats(df):
         print('\nNumber of female users are {}\n'.format(int(female_count)))
     except KeyError:
         print("We're sorry! There is no data of user genders for {}."
-              .format(city.title()))    
+              .format(city.title()))
 
 
     # Display earliest, most recent, and most common year of birth
